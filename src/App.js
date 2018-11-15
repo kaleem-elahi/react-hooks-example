@@ -25,7 +25,12 @@ class App extends Component {
             Example Code
           </a>
         </header>
+
         <ReactHooksExample/>
+
+<div className="footer">        Checkout this :
+<a href="https://reactjs.org/docs/hooks-overview.html" className="href">Hooks Overview</a>
+</div>
       </div>
     );
   }

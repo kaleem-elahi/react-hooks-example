@@ -6,13 +6,13 @@ function ReactHooksExample() {
   const [count, setCount] = useState(['O', 'O']);
   console.log(count);
   return(
-    <div>
+    <div className="centerIt">
+      <div className="flex">
       <p>h
       {
-        count.map(o => o)
+        count.map(o => <strong>{o}</strong>)
       }
       ks</p>
-      <div className="flex">
         <button className="red" onClick={() => {
           count.pop();
           setCount([...count]);
