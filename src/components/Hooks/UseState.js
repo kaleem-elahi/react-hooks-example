@@ -2,11 +2,13 @@ import React, {
   useState
 } from 'react';
 
-function ReactHooksExample() {
+function UseState() {
   const [count, setCount] = useState(['O', 'O']);
   console.log(count);
   return(
     <div className="centerIt">
+   <fieldset>
+  <legend>useState</legend>
       <div className="flex">
       <p>h
       {
@@ -25,8 +27,10 @@ function ReactHooksExample() {
         <button className="green" onClick={() => setCount([...count, 'O'])} title="Click to Increment">
         +</button>
       </div>
+ </fieldset>
+
     </div>
   )
 }
 
-export default ReactHooksExample;
+export default UseState;

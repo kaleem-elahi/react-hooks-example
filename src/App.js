@@ -2,7 +2,8 @@ import React, {
   Component,
 } from 'react';
 import logo from './logo.svg';
-import ReactHooksExample from './components/ReactHooksExample';
+import UseState from './components/Hooks/UseState';
+import UseEffect from './components/Hooks/UseEffect';
 import './App.css';
 
 class App extends Component {
@@ -26,7 +27,8 @@ class App extends Component {
           </a>
         </header>
 
-        <ReactHooksExample/>
+        <UseState/>
+        <UseEffect/>
 
 <div className="footer">        Checkout this :
 <a href="https://reactjs.org/docs/hooks-overview.html" className="href">Hooks Overview</a>
