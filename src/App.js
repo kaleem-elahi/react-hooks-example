@@ -1,36 +1,9 @@
 import React, {
   Component,
-  // Fragment,
-  // useState
 } from 'react';
 import logo from './logo.svg';
 import ReactHooksExample from './components/ReactHooksExample';
 import './App.css';
-
-// export default function App (props) {
-// const [name, setName] = useState('mary');
-
-//   function handleNameChange(e) {
-//     setName(e.target.value);
-//   }
-//   return (<Row>
-
-//     <input type = "text"
-//      className = "ak-field-text"
-//      id = "username"
-//      name = "username"
-//      placeholder = "eg. you@yourcompany.com"
-//      required value = {
-//        name
-//      }
-//      onChange = {
-//        handleNameChange
-//      }
-//      />
-//      </Row>
-//      );
-// }
-
 
 class App extends Component {
   render() {
@@ -45,11 +18,11 @@ class App extends Component {
           </p>
           <a
             className="App-link"
-            href="https://reactjs.org"
+            href="https://github.com/kaleem-elahi/react-hooks-example"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Example Code
           </a>
         </header>
         <ReactHooksExample/>
