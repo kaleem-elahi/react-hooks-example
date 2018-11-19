@@ -6,6 +6,7 @@ function UseEffect() {
   let [loading, setLoading] = useState(false);
 
   useEffect(() => {
+    console.log('useEffect rendered')
     setLoading(true);
     fetch("https://uinames.com/api/?amount=25&region=nigeria")
       .then(response => response.json())

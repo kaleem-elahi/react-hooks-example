@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin-bottom: 60px;
 }
 
 body {
@@ -32,6 +33,8 @@ body {
   color: #0ff0b3;
   height: 50px;
   font-weight: 800;
+  position: sticky;
+  top: 0;
 }
 
 .App-link {
@@ -77,7 +80,9 @@ button.red {
   POSITION: fixed;
   text-align: center;
   width: -webkit-fill-available;
-  margin: 15px;
+  padding: 11px;
+  background: #f5f5f5;
+  border-top: 1px solid #e0e0e0;
 }
 
 .centerIt {
@@ -110,4 +115,24 @@ button.red {
 .loading {
   margin: auto;
   color: #bdbdbd;
+}
+
+fieldset {
+  margin: 26px 292px;
+  border-radius: 5px;
+  border: 0px solid #575f73;
+  background: white;
+  box-shadow: 0px 0px 3px grey;
+  padding-bottom: 17px;
+}
+
+legend {
+  background: black;
+  border: 1px solid #c8c8c8;
+  border-radius: 26px;
+  text-align: left;
+  color: #61dafb;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 5px 11px;
 }

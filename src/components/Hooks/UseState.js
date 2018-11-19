@@ -6,7 +6,6 @@ function UseState() {
   const [count, setCount] = useState(['O', 'O']);
   console.log(count);
   return(
-    <div className="centerIt">
    <fieldset>
   <legend>useState</legend>
       <div className="flex">
@@ -28,8 +27,6 @@ function UseState() {
         +</button>
       </div>
  </fieldset>
-
-    </div>
   )
 }
 

@@ -4,6 +4,7 @@ import React, {
 import logo from './logo.svg';
 import UseState from './components/Hooks/UseState';
 import UseEffect from './components/Hooks/UseEffect';
+import UseContext from './components/Hooks/UseContext';
 import './App.css';
 
 class App extends Component {
@@ -29,10 +30,11 @@ class App extends Component {
 
         <UseState/>
         <UseEffect/>
+        <UseContext/>
 
-<div className="footer">        Checkout this :
+{/* <div className="footer">        Checkout this :
 <a href="https://reactjs.org/docs/hooks-overview.html" className="href">Hooks Overview</a>
-</div>
+</div> */}
       </div>
     );
   }
